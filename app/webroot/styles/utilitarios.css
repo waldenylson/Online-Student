@@ -1,0 +1,7 @@
+/* Utilidades CSS */
+
+.selected {
+    background:none repeat scroll 0 0 #B4CAE9;
+    cursor: default;
+}
+

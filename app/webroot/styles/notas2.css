@@ -1,0 +1,230 @@
+.boxGrid {
+	 border: 1px solid #CCCCCC;
+	 width: 660px;
+	 overflow: auto; 
+	 height: 200px;
+}
+
+.gridBotao {
+	border: 1px solid #000000; 
+	width: 80px; 
+	margin-bottom: 2px;
+}
+
+/***** TABELA GRID *****/
+
+table.grid {
+	background: #FFFFFF;
+}
+
+table.grid tr {
+	cursor: default;
+	
+}
+
+table.grid tr:hover {
+	background-color: #66CCFF;
+	color: #000000;
+}
+
+table.grid th {
+	font-family: verdana; 
+	font-size: 11px; 
+ 	font-weight: bold; 
+ 	background-color: #C1D9FF;
+ 	padding-right: 4px;
+ 	padding-left: 3px;	
+ 	padding-bottom: 3px;	
+ 	padding-top: 3px;	
+}
+
+table.grid td {
+	font-family: verdana; 
+	font-size: 11px; 
+	border-right: 1px solid #C3C3C3;
+	border: 1px solid #EEEEEE;
+	padding: 3px;
+}
+
+tr.grid_n_selecionado {
+	background: #FFFFFF;
+}
+
+
+tr.grid_selecionado {
+	background: #6699FF;
+	color: #FFFFFF;
+}
+
+/***** TABELA PRINT *****/
+
+table.print {
+	background: #FFFFFF;
+}
+
+table.print tr {
+	cursor: default;
+	
+}
+
+table.print td {
+	font-family: verdana; 
+	font-size: 11px; 
+	border-bottom: 1px solid #EEEEEE;
+	padding: 3px;
+}
+
+table.print label {
+	font-weight: bold;
+	font-size: 10px;
+}
+
+/* FORM PROVISORIO */
+
+.qcForm input {
+	font-size: 11px;
+	font-family: Verdana;
+	border: 1px solid #1E90FF;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.qcForm select {
+	font-size: 11px;
+	font-family: Verdana;
+	border: 1px solid #1E90FF;
+	background-color: #FFFFFF;
+	padding: 2px;
+}
+
+.qcForm label {
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.qcFormSecoes {
+
+	color: #27415B;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial;
+	font-style: oblique;
+	background-color: #F3F3F3;
+	
+	border-bottom: 1px solid #C3C3C3;
+	
+	padding: 5px;
+	margin-top: 10px;
+
+}
+
+
+/**
+
+table.grid td a:hover {
+	text-decoration: underline;
+}
+
+**/
+
+
+/***** TABELA PLANEN *****/
+
+table.planen {
+	background: #FFFFFF;
+}
+
+table.planen tr {
+	cursor: default;
+}
+
+table.planen tr:hover {
+	background-color: #F3F3F3;
+	color: #000000;
+}
+
+table.planen th {
+	font-family: verdana; 
+	font-size: 11px; 
+ 	font-weight: bold; 
+ 	background-color: #C1D9FF;
+ 	border-left: 1px solid #F3F3F3;
+ 	padding: 3px;	
+}
+
+table.planen td {
+	font-family: verdana; 
+	font-size: 11px; 
+	border: 1px solid #EEEEEE;
+	padding: 0px;
+}
+
+/***** ENTRE DIVS *****/
+
+.dvTituloPadrao {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.dvCorpoPadrao {
+	font-weight: thin;
+	margin-bottom: 20px;
+}
+
+.dvTituloTabelaPlanen {
+	color: default;
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #F3F3F3;
+	padding: 6px;
+}
+
+.dvCorpoTabelaPlanen {
+	font-weight: thin;
+	margin-bottom: 20px;
+	padding: 6px;
+}
+
+.fontVermelha {
+	color: #FF0000;
+}
+
+.fontVerde {
+	color: #336600;
+}
+
+.fontPreta {
+	color: #000000;
+}
+
+.fontCinza1 {
+	color: #333333;
+}
+
+.fontCinza2 {
+	color: #666666;
+}
+
+.fontCinza3 {
+	color: #999999;
+}
+
+.fontCinza3 {
+	color: #FFFFFF;
+}
+
+/** TABELA PADRÃO **/
+
+table.QTpadrao_Ln1 tr {
+	background-color: #FAFAD2;
+}
+
+table.QTpadrao_Ln2 tr {
+	background-color: #FFFFFF;
+}
+
+table.QTpadrao_Ln1:hover .QTpadrao_Ln1:hover {
+	background-color: #0000FF;
+	color: #FFFFFF;
+
+}

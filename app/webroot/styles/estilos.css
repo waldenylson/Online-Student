@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* CSS Document */
+.txtTahoma12Cinza {
+	color: #5A5E66;
+	font-family: tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.form {
+	border-color: #999999 #FFFFFF #FFFFFF #999999;
+	border-style: solid;
+	border-width: 1px;
+	color: #777777;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 15px;
+	height: 25px;
+	text-decoration: none;
+}
+
+.borda1 {
+	background-color: #FFFFFF;
+	border: 1px solid #3166A5;
+	padding: 1px;
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;	
+}
+
+.borda2 {
+	padding: 10px;
+	color: #5A5E66;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+label { 
+	display: block; 
+	margin-top: 10px;
+}
+
+label.error { 
+	float: none; 
+	color: red; 
+	margin: 0 .5em 0 0; 
+	vertical-align: top; 
+	font-size: 10px 
+}
+
+p { clear: both; }
+
+em { 
+	font-weight: bold; 
+	padding-right: 1em; 
+	vertical-align: top; 
+}
+.radio{
+	border: 0px;
+}
+input {
+	border: 1px solid #999;
+}
+select {
+	border: 1px solid #999;
+}

@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+
+#conteudoDinamico{	
+	border: 1px solid #999999;
+	margin-top: 3px;	
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.userTop {	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 10px;
+}
+.logoff {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* MENU */
+.sair {
+	text-transform: uppercase;	
+}
+a:link {
+    text-decoration: none;
+    color: #0000FF;
+}
+a:visited {
+    text-decoration: none;
+    color: #0000FF;
+}
+a:hover {
+    text-decoration: underline; 
+    color: #0000FF;
+}
+a:active {
+    text-decoration: none;
+}
