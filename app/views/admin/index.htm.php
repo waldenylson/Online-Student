@@ -39,7 +39,8 @@
 															<li><a onclick="javascript:abreLink('novoAluno');"     class="" tabindex="-1" href="javascript:void(0);">Novo Registro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 															<li><a class="" tabindex="-1" href="<?php echo Mapper::url("/admin/pesquisarAlunos"); ?>" target="conteudoVariavel" >Pesquisar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                                                             <li><a class="" tabindex="-1" href="<?php echo Mapper::url("/admin/pesquisarAlunosByMatricula"); ?>" target="conteudoVariavel" >Atualizar Notas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-														</ul>
+													        <li><a class="" tabindex="-1" href="javascript:void(0);" onclick="javascript:abreLink('atualizaSenhaAluno');">Atualizar Senha Aluno&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>  
+                                                        </ul>
                                                     </li>
                                                     <li><a tabindex="-1" href="javascript:void(0);" class="MenuBarItemSubmenu"><?php echo $html->image("arquivos/professores.png", array("width" => "24", "border" => "0", "height" => "24")); ?><!--<img src="arquivos/conectados.png" width="24" border="0" height="24">--><br>&nbsp;PROFESSORES&nbsp;</a>
                                                         <ul class="">
@@ -151,7 +152,7 @@
 <a  id="gerirBancoQuestoes"  title="Banco de Quest&otilde;es"      href="<?php echo Mapper::url("/admin/pesquisarQuestoes"); ?>" 	rel="shadowbox;"></a>
 <a  id="aniversariantesMes"  title="Aniversariantes do M&ecirc;s"  href="<?php echo Mapper::url("/admin/aniversariantesMes"); ?>" 	rel="shadowbox;"></a>
 <a  id="aniversariantesDia"  title="Aniversariantes do Dia"        href="<?php echo Mapper::url("/admin/aniversariantesDia"); ?>" 	rel="shadowbox;"></a>
-
+<a  id="atualizaSenhaAluno"  title="Atualizar Senha do Aluno"      href="<?php echo Mapper::url("/updateAlunos"); ?>"               rel="shadowbox;"></a>
 
 <iframe id="conteudoVariavel" name="conteudoVariavel" style="border: 0px; width: 100%; height: 600px;" src="<?php echo Mapper::url('/post_it/index.html'); ?>"></iframe>
 
